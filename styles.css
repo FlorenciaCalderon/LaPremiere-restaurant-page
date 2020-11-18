@@ -254,7 +254,7 @@ body {
   margin: 0px 0px;
   padding: 0px 0px;
   grid-template-columns: repeat(3, calc(100% / 3));
-  grid-template-rows: 1fr;
+  grid-template-rows: auto;
   grid-template-areas: "p1 p2 p3";
   gap: 0px 0px;
 }
@@ -459,7 +459,7 @@ body {
   position: absolute;
   height: 225px;
   width: 225px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.4);
   color: white;
   font-size: 30px;
   border-radius: 50%;
@@ -764,6 +764,9 @@ body {
     padding: 0px 0px;
   }
 
+
+ 
+
   .t1,
   .t2,
   .t3 {
@@ -802,6 +805,10 @@ body {
     margin-bottom: 40px;
   }
 
+
+
+
+
   .paragraph {
     padding-left: 10vw;
     padding-right: 10vw;
@@ -817,6 +824,13 @@ body {
     margin: auto;
     margin-top: 5vh;
   }
+
+
+  .instagram-icon-circle {
+    display:none;
+  }
+
+
 
   .concepcion,
   .tome {
