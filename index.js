@@ -37,18 +37,46 @@ const about = document.getElementById("about1");
 const contact = document.getElementById("contact1");
 
 function colorLink() {
-  if (window.scrollY >= sticky) {
+  console.log(window.scrollY);
+if(window.scrollY >= 0 && window.scrollY <= 513){
+  home.style.color = "rgb(255, 199, 44)";
+  home.style.borderBottom = "2px solid rgb(255, 199, 44)";
+  menu.style.color = "white";
+  menu.style.borderBottom = "0px";
+  about.style.color = "white";
+  about.style.borderBottom = "0px";
+  contact.style.color = "white";
+  contact.style.borderBottom = "0px";
+}else if (window.scrollY > 513 && window.scrollY <= 2337) {
     home.style.color = "white";
     home.style.borderBottom = "0px";
     menu.style.color = "rgb(255, 199, 44)";
     menu.style.borderBottom = "2px solid rgb(255, 199, 44)";
-  } else {
-    home.style.color = "rgb(255, 199, 44)";
-    home.style.borderBottom = "2px solid rgb(255, 199, 44)";
+    about.style.color = "white";
+    about.style.borderBottom = "0px";
+    contact.style.color = "white";
+    contact.style.borderBottom = "0px";
+  } else if(window.scrollY > 2337 && window.scrollY <= 3534) {
+    home.style.color = "white";
+    home.style.borderBottom = "0px";
     menu.style.color = "white";
     menu.style.borderBottom = "0px";
+    about.style.color = "rgb(255, 199, 44)";
+    about.style.borderBottom = "2px solid rgb(255, 199, 44)";
+    contact.style.color = "white";
+    contact.style.borderBottom = "0px";
+  }else if(window.scrollY >3534){
+    home.style.color = "white";
+    home.style.borderBottom = "0px";
+    menu.style.color = "white";
+    menu.style.borderBottom = "0px";
+    about.style.color = "white";
+    about.style.borderBottom = "0px";
+    contact.style.color = "rgb(255, 199, 44)";
+    contact.style.borderBottom = "2px solid rgb(255, 199, 44)";
   }
 }
+
 
 window.addEventListener("scroll", colorLink);
 
@@ -61,7 +89,6 @@ const nRight = document.getElementById("navbar-right");
 let sticky = slideButton.offsetTop;
 
 function stickyNavbar() {
-  console.log(sticky);
   if (window.scrollY >= sticky) {
     nLeft.classList.add("sticky");
     logo.classList.add("sticky-logo");
