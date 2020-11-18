@@ -427,52 +427,56 @@ body {
   height: 250px;
   width: 250px;
 }
-
+/* 
 .instapic:hover{
-  transform: scale(1);
-  transition: 1s;
+  animation-name: scale;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
   min-height: 250px;
   min-width: 250px;
-}
-
-
-/* .instapic:hover + .instagram-icon-circle{
-  visibility: visible;
 } */
 
+/* The animation code */
+@keyframes scale {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 
+.instapic:hover ~ .instagram-icon-circle {
+  visibility: visible;
+}
 
+.instagram-icon-circle:hover {
+  visibility: visible;
+}
 
-.instagram-icon-circle{
-  display:inline-block;
-  position: absolute; 
+.instagram-icon-circle {
+  display: inline-block;
+  position: absolute;
   height: 225px;
   width: 225px;
   background: rgba(0, 0, 0, 0.5);
-  color:white;
+  color: white;
   font-size: 30px;
   border-radius: 50%;
-  border:1px dashed;
+  border: 1px dashed;
   z-index: 1;
-  margin-left:-237.5px;
-  margin-top:12.5px;
+  margin-left: -237.5px;
+  margin-top: 12.5px;
   text-align: center;
   visibility: hidden;
-  
 }
 
-
-
-
-
-#ins1,#ins2,#ins3,#ins4{
-  margin-top:100px;
+#ins1,
+#ins2,
+#ins3,
+#ins4 {
+  margin-top: 100px;
 }
-
-
-
-
-
 
 .contact-info {
   grid-area: contact;
@@ -564,20 +568,13 @@ body {
   margin: auto;
   border-top: 1px solid;
   border-top-color: rgb(231, 228, 224);
-color: rgb(145, 145, 145);
-font-family: "Raleway", sans-serif;
-font-size: 15px;
-font-style: normal;
-font-weight: 500;
-line-height: 25px;
+  color: rgb(145, 145, 145);
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
 }
-
-
-
-
-
-
-
 
 /* Nabar */
 
