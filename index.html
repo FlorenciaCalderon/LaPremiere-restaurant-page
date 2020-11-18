@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="burgericon.png"> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Premiere</title>
+    <link
+    href="fontawesome-free-5.15.1-web/css/all.css"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <!-- Slideshow container -->
+    <div id="home" class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="cover1.jpg" width="100%" height="auto" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="cover2.jpg" width="100%" height="auto" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="cover3.jpg" width="100%" height="auto" />
+      </div>
+
+      <!-- Next and previous buttons -->
+      <div
+        id="slidebutton"
+        class="prev"
+        onclick="setTimeout(function(){plusSlides(-1)}, 200)"
+      >
+        &#10094;
+      </div>
+      <div class="next" onclick="setTimeout(function(){plusSlides(1)}, 200)">
+        &#10095;
+      </div>
+    </div>
+
+    <!-- Burger Menu -->
+
+    <div id="burgermenu" class="menu-container">
+      <div class="title1">Burger Menu</div>
+
+      <div class="title2">Las Mejores Burgers</div>
+
+      <div id="pic1" class="burger-pic-container">
+        <img
+          class="burger-pic"
+          src="clasica.jpg"
+          width="166px"
+          height="166px"
+        />
+      </div>
+
+      <div id="info1" class="burger-info">
+        <div class="t1">Clasica</div>
+        <div class="t2">
+          Cebolla morada, pepinillos, lechuga, tomate, salsa première.
+        </div>
+        <div class="t3">$5.900</div>
+      </div>
+
+      <div id="pic2" class="burger-pic-container">
+        <img
+          class="burger-pic"
+          src="premiere.jpg"
+          width="166px"
+          height="166px"
+        />
+      </div>
+
+      <div id="info2" class="burger-info">
+        <div class="t1">Première</div>
+        <div class="t2">
+          Cebolla morada, pepinillos, tocino, doble queso, salsa première.
+        </div>
+        <div class="t3">$6.500</div>
+      </div>
+
+      <div id="pic3" class="burger-pic-container">
+        <img
+          class="burger-pic"
+          src="campeona.jpg"
+          width="166px"
+          height="166px"
+        />
+      </div>
+
+      <div id="info3" class="burger-info">
+        <div class="t1">Campeona</div>
+        <div class="t2">
+          Cebolla asada, queso, tocino, huevo frito, salsa première.
+        </div>
+        <div class="t3">$6.500</div>
+      </div>
+
+      <div id="pic4" class="burger-pic-container">
+        <img class="burger-pic" src="bigjim.jpg" width="166px" height="166px" />
+      </div>
+
+      <div id="info4" class="burger-info">
+        <div class="t1">Big Jim</div>
+        <div class="t2">
+          Pepinillos, queso, tocino, aros de cebolla, salsa barbecue.
+        </div>
+        <div class="t3">$6.500</div>
+      </div>
+
+      <div id="pic5" class="burger-pic-container">
+        <img
+          class="burger-pic"
+          src="portobello.jpg"
+          width="166px"
+          height="166px"
+        />
+      </div>
+
+      <div id="info5" class="burger-info">
+        <div class="t1">Portobello</div>
+        <div class="t2">
+          Cebolla asada, lechuga, queso, mix de hongos, salsa funghi.
+        </div>
+        <div class="t3">$6.500</div>
+      </div>
+
+      <div id="pic6" class="burger-pic-container">
+        <img
+          class="burger-pic"
+          src="california.jpg"
+          width="166px"
+          height="166px"
+        />
+      </div>
+
+      <div id="info6" class="burger-info">
+        <div class="t1">California</div>
+        <div class="t2">Palta, tomate, cebollin, queso, salsa cilantro.</div>
+        <div class="t3">$6.500</div>
+      </div>
+
+      <div id="pic7" class="burger-pic-container">
+        <img class="burger-pic" src="bubba.png" width="166px" height="166px" />
+      </div>
+
+      <div id="info7" class="burger-info">
+        <div class="t1">Bubba</div>
+        <div class="t2">Camarones, cebollin, tomate, salsa cilantro.</div>
+        <div class="t3">$6.500</div>
+      </div>
+
+      <div id="pic8" class="burger-pic-container">
+        <img
+          class="burger-pic"
+          src="rockandfour.png"
+          width="166px"
+          height="166px"
+        />
+      </div>
+
+      <div id="info8" class="burger-info">
+        <div class="t1">Rock & Four</div>
+        <div class="t2">
+          Lechuga, tocino crispy, queso azul, chutney casero, salsa barbecue.
+        </div>
+        <div class="t3">$6.500</div>
+      </div>
+    </div>
+
+
+<div class="picbar">
+<div class="square"><img id="p1"src="p1.png"></div>
+<div class="square"><img id="p2"src="p2.png"></div>
+<div class="square"><img id="p3"src="p3.png"></div>
+</div>
+
+
+
+<!-- Testimonials -->
+<div class="testimonials">
+  <div class="title-1">Testimonios</div>
+  <div class="title-2">Clientes Felices</div>
+  <div class="paragraph">"Innovadora propuesta gastronómica especializada en la elaboración de excelentes hamburguesas.
+    Local moderno con original diseño y ambientación...
+    Se ha transformado en un imperdible"<br> Mauricio Chandia<br><br>
+"La mejor hamburguesa de la octava region"<br> Erik Otak<br><br>
+"Exelente precio calidad"<br> Jose Riquelme Aburto<br><br></div>
+    <img class="smooth" id="client-face" src="c1.png"><br><br>
+    <div class="smooth" id="client-name">Rodrigo Robles Ulloa</div>
+    <div class="stars">
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star" aria-hidden="true"></i>
+    </div>
+</div>
+
+
+
+<!-- PicBar2 -->
+<div class="picbar2">
+  <div class="instasquare"><img onmouseenter="showCircle1()" onmouseleave="hideCircle1()" src="insta1.png" class="instapic" id="instapic1"><div class="instagram-icon-circle" id="instagram-icon-circle1"><i id="ins1" class="fab fa-instagram"></i></div></div>
+  <div class="instasquare"><img onmouseenter="showCircle2()" onmouseleave="hideCircle2()" src="insta2.png" class="instapic" id="instapic2"><div class="instagram-icon-circle" id="instagram-icon-circle2"><i id="ins2" class="fab fa-instagram"></i></div></div>
+  <div class="instasquare"><img onmouseenter="showCircle3()" onmouseleave="hideCircle3()" src="insta3.png" class="instapic" id="instapic3"><div class="instagram-icon-circle" id="instagram-icon-circle3"><i id="ins3" class="fab fa-instagram"></i></div></div>
+  <div class="instasquare"><img onmouseenter="showCircle4()" onmouseleave="hideCircle4()" src="insta4.png" class="instapic" id="instapic4"><div class="instagram-icon-circle" id="instagram-icon-circle4"><i id="ins4" class="fab fa-instagram"></i></div></div>
+</div>
+
+
+
+
+
+
+<!-- Contact Info -->
+<div class="contact-info">
+<div class="concepcion">
+  <div class="city">Concepción</div>
+  <div class="address">San Martín 684, Concepción<br>
+    Región del Biobío, Chile<br>
+    contactolapremiere@gmail.com</div>
+    <div class="call">+569 6173 7201</div>
+</div>
+
+<div class="tome">
+  <div class="city">Tomé</div>
+  <div class="address">Nogueira 1025, Tomé<br>
+    Región del Biobío, Chile<br>
+    contactolapremiere@gmail.com</div>
+    <div class="call">+569 4789 7108</div>
+</div>
+
+</div>
+
+<!-- Icons at the bottom -->
+
+<div class="icons-bottom">
+  <div class="iconsfaceinsta"><a href="https://www.facebook.com/lapremiereburgers"><i id="facebook-bottom" class="fab fa-facebook-f"></i></a></div>
+  <div class="iconsfaceinsta"><a href="https://www.instagram.com/lapremiereburgers/"><i id="instagram-bottom" class="fab fa-instagram"></i></a></div>
+
+</div>
+
+
+
+<div class="copyright">This page was made with <i class="far fa-heart" style="color: #f0542c;"></i> by <span style="color: #f0542c;">Miyuki</span> +569 3727 7214
+</div>
+
+
+
+
+
+
+     <!-- Navigation Bar -->
+
+     <div id="navbar-left" class="navbar-left-container">
+      <div class="link"><a id="home1" href="#home">Home</a></div>
+      <div class="link"><a id="menu" href="#burgermenu">Menu</a></div>
+      <div class="link"><a id="about" href="">About</a></div>
+      <div class="link"><a id="contact" href="">Contact</a></div>
+    </div>
+
+    <div><img id="logo" class="logo" src="logo.png" /></div>
+
+    <div id="navbar-right" class="navbar-right-container">
+      <div class="icon">
+        <a href="https://www.instagram.com/lapremiereburgers/"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="icon">
+        <a href="https://www.facebook.com/lapremiereburgers"><i class="fab fa-facebook-f"></i></a>
+      </div>
+      <div class="phonenumber">
+        <a href="tel:+56961737201">+569 6173 7201</a>
+      </div>
+    </div>
+
+    <!-- SMALL SCREEN NAVBAR -->
+
+    <div class="navbar-container">
+      <div><img class="logo-small" src="logo.png" /></div>
+    </div>
+
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"
+      ><span class="nav-icon"></span
+    ></label>
+
+    <div class="menu">
+      <div class="linktriad"><a href="#burgermenu">Menu</a></div>
+      <div class="linktriad"><a href="">About</a></div>
+      <div class="linktriad"><a href="">Contact</a></div>
+    </div>
+  </body>
+</html>
