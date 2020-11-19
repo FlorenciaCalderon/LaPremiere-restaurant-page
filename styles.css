@@ -282,7 +282,6 @@ body {
 .square {
   overflow: hidden;
   height: 100%;
-  object-fit: contain;
 }
 
 #p1 {
@@ -827,6 +826,63 @@ body {
   #info8 {
     margin-bottom: 40px;
   }
+
+
+
+
+  /* .picbar {
+    grid-area: picbar;
+    display: grid;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    grid-template-columns: repeat(3, calc(100% / 3));
+    grid-template-rows: auto;
+    grid-template-areas: "p1 p2 p3";
+    gap: 0px 0px;
+  } */
+  
+  .square {
+    overflow: hidden;
+    height: auto;
+  }
+  
+  #p1 {
+    grid-area: p1;
+    max-width: calc(100vw / 3);
+   height: auto;
+  }
+  #p2 {
+    grid-area: p2;
+    max-width: calc(100vw / 3);
+    height: auto;;
+  }
+  #p3 {
+    grid-area: p3;
+    max-width: calc(100vw / 3);
+    height: auto;
+  }
+  
+  #p1:hover,
+  #p2:hover,
+  #p3:hover {
+    transform: scale(1);
+    transition: none;
+    max-height:none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   .paragraph {
     padding-left: 10vw;
