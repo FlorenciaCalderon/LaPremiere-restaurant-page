@@ -830,7 +830,7 @@ body {
 
 
 
-  /* .picbar {
+  .picbar {
     grid-area: picbar;
     display: grid;
     margin: 0px 0px;
@@ -839,27 +839,27 @@ body {
     grid-template-rows: auto;
     grid-template-areas: "p1 p2 p3";
     gap: 0px 0px;
-  } */
+  }
   
   .square {
     overflow: hidden;
-    height: auto;
+    height: inherit;
   }
   
   #p1 {
     grid-area: p1;
     max-width: calc(100vw / 3);
-   height: auto;
+    min-height: none;
   }
   #p2 {
     grid-area: p2;
     max-width: calc(100vw / 3);
-    height: auto;;
+    min-height: none;
   }
   #p3 {
     grid-area: p3;
     max-width: calc(100vw / 3);
-    height: auto;
+    min-height: none;
   }
   
   #p1:hover,
@@ -869,7 +869,6 @@ body {
     transition: none;
     max-height:none;
   }
-
 
 
 
