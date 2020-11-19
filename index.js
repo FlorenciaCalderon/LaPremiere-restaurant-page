@@ -37,7 +37,7 @@ const about = document.getElementById("about1");
 const contact = document.getElementById("contact1");
 
 function colorLink() {
-  console.log(window.scrollY);
+  // console.log(window.scrollY);
 if(window.scrollY >= 0 && window.scrollY <= 513){
   home.style.color = "rgb(255, 199, 44)";
   home.style.borderBottom = "2px solid rgb(255, 199, 44)";
@@ -56,7 +56,7 @@ if(window.scrollY >= 0 && window.scrollY <= 513){
     about.style.borderBottom = "0px";
     contact.style.color = "white";
     contact.style.borderBottom = "0px";
-  } else if(window.scrollY > 2337 && window.scrollY <= 3534) {
+  } else if(window.scrollY > 2337 && window.scrollY <= 3137) {
     home.style.color = "white";
     home.style.borderBottom = "0px";
     menu.style.color = "white";
@@ -65,7 +65,7 @@ if(window.scrollY >= 0 && window.scrollY <= 513){
     about.style.borderBottom = "2px solid rgb(255, 199, 44)";
     contact.style.color = "white";
     contact.style.borderBottom = "0px";
-  }else if(window.scrollY >3534){
+  }else if(window.scrollY >3137){
     home.style.color = "white";
     home.style.borderBottom = "0px";
     menu.style.color = "white";
