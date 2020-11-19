@@ -870,7 +870,7 @@ body {
   #p3:hover {
     transform: none;
     transition: none;
-    max-height:none;
+    max-height:100%;
   }
 
 
