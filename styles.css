@@ -146,63 +146,80 @@ body {
 #pic1 {
   grid-area: pic1;
   margin-left: 8vw;
+ 
 }
 #pic2 {
   grid-area: pic2;
   margin-left: 20px;
+ 
 }
 #pic3 {
   grid-area: pic3;
   margin-left: 8vw;
+ 
 }
 #pic4 {
   grid-area: pic4;
   margin-left: 20px;
+  
 }
 #pic5 {
   grid-area: pic5;
   margin-left: 8vw;
+  
 }
 #pic6 {
   grid-area: pic6;
   margin-left: 20px;
+  
 }
 #pic7 {
   grid-area: pic7;
   margin-left: 8vw;
+  
 }
 #pic8 {
   grid-area: pic8;
   margin-left: 20px;
+  
 }
 
 #info1 {
   grid-area: info1;
+  
 }
 #info2 {
   grid-area: info2;
+ 
 }
 #info3 {
   grid-area: info3;
+  
 }
 #info4 {
   grid-area: info4;
+  
 }
 #info5 {
   grid-area: info5;
+ 
 }
 #info6 {
   grid-area: info6;
+
 }
 #info7 {
   grid-area: info7;
+  
 }
 #info8 {
   grid-area: info8;
+
 }
 
 .burger-pic-container {
   display: block;
+  margin-bottom:30px;
 }
 
 .burger-pic {
@@ -214,6 +231,7 @@ body {
 
 .burger-info {
   display: block;
+  margin-bottom:30px;
 }
 .t1 {
   font-size: 30px;
@@ -574,6 +592,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 25px;
+  margin-bottom:10px;
 }
 
 /* Nabar */
