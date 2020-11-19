@@ -108,7 +108,7 @@ body {
     "pic5 info5 pic6 info6 ."
     "pic7 info7 pic8 info8 .";
   gap: 0px 0px;
-  height: 200vh;
+  height: auto;
   width: 100%;
   grid-area: burgermenu;
   margin: 0px 0px;
