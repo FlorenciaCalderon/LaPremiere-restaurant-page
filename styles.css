@@ -829,7 +829,6 @@ body {
 
 
 
-/* 
   .picbar {
     grid-area: picbar;
     display: grid;
@@ -865,7 +864,7 @@ display:none;
     transform: none;
     transition: none;
     max-height:100%;
-  } */
+  } 
 
 
 
