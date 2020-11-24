@@ -36,6 +36,7 @@ const menu = document.getElementById("menu1");
 const about = document.getElementById("about1");
 const contact = document.getElementById("contact1");
 
+
 function colorLink() {
   // console.log(window.scrollY);
 if(window.scrollY >= 0 && window.scrollY <= 513){
