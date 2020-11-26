@@ -632,6 +632,7 @@ body {
   font-weight: bolder;
   font-size: 17px;
   padding-bottom: 10px;
+  text-shadow: 4px 4px 10px black;
 }
 
 
@@ -658,6 +659,7 @@ body {
   color: white;
   font-size: 22px;
   margin-right: 2vw;
+  text-shadow: 4px 4px 10px black;
 }
 
 .icon a i:hover {
@@ -677,6 +679,7 @@ body {
   text-decoration: none;
   line-height: 1.5;
   transition: 0.3s;
+  text-shadow: 4px 4px 10px black;
 }
 
 .phonenumber a:hover {
