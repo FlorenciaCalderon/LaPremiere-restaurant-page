@@ -653,7 +653,6 @@ body {
   height: 150px;
   top: 0;
   margin-left: calc(50vw - 75px);
-  box-shadow: 1px 1px 2px black;;
 }
 
 .icon a i {
@@ -739,7 +738,6 @@ body {
   z-index: 1;
   height: 100px;
   width: 100px;
-  box-shadow:none;
 }
 
 /* For mobile phones and tablets: */
